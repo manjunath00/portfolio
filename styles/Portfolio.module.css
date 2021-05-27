@@ -1,0 +1,127 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+.sidebar {
+  width: 30%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subheading,
+.name {
+  text-align: center;
+}
+
+.name {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.imageContainer img {
+  padding-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.image {
+}
+
+.image img {
+  clip-path: circle(75px);
+  max-width: 150px;
+  height: 150px;
+}
+
+.portfolioWebsite {
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+  margin: 0.5rem;
+}
+
+.contactSection {
+  max-width: 300px;
+  margin: 0.75rem;
+}
+
+.contact {
+  font-weight: 800;
+  font-size: 1.25rem;
+  padding: 1rem 0;
+}
+
+.contact div {
+  padding: 1rem 0;
+}
+
+.contactPhone {
+  padding-bottom: 0.5rem;
+}
+
+/* Main Bar */
+
+.mainbar {
+  width: 100%;
+  background-color: #654556;
+  color: #fff;
+  padding: 2rem;
+}
+
+.heading {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 1.5rem 0;
+  text-transform: uppercase;
+}
+
+.projectCards {
+  display: flex;
+}
+
+.card {
+  width: 230px;
+  border-radius: 10px;
+  padding: 1rem;
+  background-color: #fff;
+  color: #000;
+  font-size: 0.85rem;
+}
+
+.cardHeading {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.cardDescription {
+  /* text-align: justify; */
+  margin: 0.5rem 0;
+}
+
+/* Skills */
+
+.skills {
+  display: flex;
+}
+
+.skill {
+    margin: 1rem;
+}
+
+.skill svg {
+    height: 100px;
+    width: 100px;
+}
