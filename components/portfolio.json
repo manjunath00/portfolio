@@ -14,22 +14,6 @@
             "liveLink": "https://pokemon-mern.herokuapp.com",
             "description": "Full stack app with ability to search & create pokemons",
             "stack": "MERN Stack"
-        },
-        {
-            "id": 2,
-            "name": "Pokedox",
-            "repoLink": "https://github.com/manjunath00",
-            "liveLink": "https://pokemon-mern.herokuapp.com",
-            "description": "Full stack app with ability to search & create pokemons",
-            "stack": "MERN Stack"
-        },
-        {
-            "id": 3,
-            "name": "Pokedox",
-            "repoLink": "https://github.com/manjunath00",
-            "liveLink": "https://pokemon-mern.herokuapp.com",
-            "description": "Full stack app with ability to search & create pokemons",
-            "stack": "MERN Stack"
         }
     ],
     "skills": [
