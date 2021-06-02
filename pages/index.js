@@ -10,6 +10,7 @@ export default function Home() {
           href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
           rel="stylesheet"
         />
+        <title>Manjunath's Portfolio</title>
       </Head>
       <Portfolio />
     </div>

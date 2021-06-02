@@ -7,7 +7,7 @@
 }
 
 .sidebar {
-  width: 30%;
+  width: 40%;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -31,15 +31,23 @@
   margin-top: 2rem;
 }
 
-.imageContainer img {
-  padding-top: 2rem;
-  margin-bottom: 1rem;
+.nameContainer {
+  margin-top: 1rem;
+}
+
+.image {
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  display: inline-block;
+  height: 180px;
+  width: 180px;
 }
 
 .image img {
-  clip-path: circle(75px);
-  max-width: 150px;
-  height: 150px;
+  width: auto;
+  height: 100%;
+  margin-left: -50px;
 }
 
 .portfolioWebsite {
@@ -59,7 +67,7 @@
 .contact {
   font-weight: 800;
   font-size: 1.25rem;
-  padding: 1rem 0;
+  padding: 0 0 1rem;
 }
 
 .contact div {
@@ -137,6 +145,13 @@
   width: 100px;
 }
 
+.footer {
+  position: fixed;
+  left: 50%;
+  bottom: 1rem;
+  font-weight: 800;
+}
+
 @media only screen and (max-width: 600px) {
   /* .container {
     width: 100%;
@@ -184,5 +199,11 @@
     max-width: 100%;
     width: 100%;
     margin: 0 auto;
+  }
+
+  .footer {
+    position: static;
+    text-align: center;
+    padding-top: 1rem;
   }
 }

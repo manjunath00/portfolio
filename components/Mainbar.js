@@ -30,7 +30,7 @@ export default function Mainbar() {
         <div className={style.heading}>Projects</div>
         <div className={style.projectCards}>
           {Projects.map((item) => (
-            <div className={style.card}>
+            <div className={style.card} key={item.id}>
               <div className={style.cardHeading}>
                 <div>{item.name}</div>
               </div>
@@ -63,6 +63,10 @@ export default function Mainbar() {
             <div className={style.skill}>{Skills[item]}</div>
           ))}
         </div>
+      </div>
+
+      <div className={style.footer}>
+        Built with &#x1F525; Passion &#x1F525; in Bengaluru
       </div>
     </div>
   );
