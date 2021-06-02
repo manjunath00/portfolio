@@ -138,16 +138,16 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .container {
+  /* .container {
     width: 100%;
     display: block;
-  }
+  } */
 
-  .sidebar {
+  /* .sidebar {
     max-width: 100%;
     width: 100%;
     height: max-content;
-  }
+  } */
 
   .mainbar {
     padding: 1rem 1.5rem;
@@ -170,5 +170,19 @@
   .skills {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    width: 100%;
+    display: block;
+  }
+
+  .sidebar {
+    height: max-content;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
   }
 }
