@@ -1,7 +1,7 @@
 import style from "../styles/Portfolio.module.css";
 
-import Mainbar from "./Mainbar";
-import Sidebar from "./Sidebar";
+import Mainbar from "../components/Mainbar";
+import Sidebar from "../components/Sidebar";
 
 export default function Portfolio() {
   return (
