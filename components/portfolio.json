@@ -10,9 +10,17 @@
         {
             "id": 1,
             "name": "Pokedox",
-            "repoLink": "https://github.com/manjunath00",
+            "repoLink": "https://github.com/manjunath00/pokemon",
             "liveLink": "https://pokemon-mern.herokuapp.com",
             "description": "Full stack app with ability to search & create pokemons",
+            "stack": "MERN Stack"
+        },
+        {
+            "id": 2,
+            "name": "Buzzfeed",
+            "repoLink": "https://github.com/manjunath00/blog-feed",
+            "liveLink": "http://buzzfeed-mern.herokuapp.com/",
+            "description": "Full stack app with where user can create articles, follow articles",
             "stack": "MERN Stack"
         }
     ],
