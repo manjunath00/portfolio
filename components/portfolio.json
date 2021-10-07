@@ -22,6 +22,14 @@
             "liveLink": "http://buzzfeed-mern.herokuapp.com/",
             "description": "Full stack app with where user can create articles, follow articles",
             "stack": "MERN Stack"
+        },
+        {
+            "id": 3,
+            "name": "Frontend Mentor Challenges",
+            "repoLink": "https://github.com/manjunath00/frontend-mentor",
+            "liveLink": "",
+            "description": "Frontend mentor challenges made with HTML5 & CSS3",
+            "stack": "HTML5 & CSS3"
         }
     ],
     "skills": [
